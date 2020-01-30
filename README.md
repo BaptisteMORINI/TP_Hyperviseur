@@ -1,5 +1,7 @@
 #### Thomas Lassalle et  Baptiste Morini
 
+## Inventory
+
 __hosts.yaml:__ Fichier inventaire de nos hyperviseurs.
 
 ## Ansible-playbooks:
