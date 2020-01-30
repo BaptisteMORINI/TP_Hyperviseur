@@ -1,5 +1,5 @@
-# Thomas Lassalle
-# Baptiste Morini
+## Thomas Lassalle
+## Baptiste Morini
 
 Fichier inventaire avec les hostnames
 
