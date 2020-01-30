@@ -4,9 +4,9 @@
       proxmox_kvm:
         api_user     : root@pam
         api_password : itescia
-        api_host     : 192.168.17.131
+        api_host     : 192.168.80.128
         name         : ta01
-        node         : proxmox1
+        node         : proxmox
         ide          : '{"ide0":"local:iso/ubuntu-18.04.1-live-server-amd64.iso,media=cdrom"}'
         virtio       : '{"scsi0":"Data:32,format=raw"}'
         net          : '{"net0":"virtio,bridge=vmbr0"}'
@@ -19,8 +19,7 @@
       proxmox_kvm:
         api_user     : root@pam
         api_password : itescia
-        api_host     : 192.168.17.131
-        state        : started
+        api_host     : 192.168.80.128
         name         : ta01
         node         : proxmox1
         state        : started

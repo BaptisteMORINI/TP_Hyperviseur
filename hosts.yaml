@@ -1,5 +1,5 @@
 
 [Hosts]
-proxmox1 ansible_host=192.168.17.131
-proxmox2 ansible_host=192.168.17.129
-proxmox3 ansible_host=192.168.17.130
+proxmox ansible_host=192.168.80.128
+proxmox2 ansible_host=192.168.80.129
+proxmox3 ansible_host=192.168.80.130
