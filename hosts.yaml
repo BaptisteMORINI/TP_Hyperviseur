@@ -1,0 +1,5 @@
+
+[Hosts]
+Proxmox161 ansible_host=192.168.109.128
+Proxmox162 ansible_host=192.168.109.129
+Proxmox163 ansible_host=192.168.109.130
