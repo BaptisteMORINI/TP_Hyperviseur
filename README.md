@@ -6,7 +6,7 @@ __hosts.yaml:__ Fichier inventaire de nos hyperviseurs proxmox.
 
 ## Ansible-playbooks:
 
-__deployVM.yaml:__ Création de machine virtuelle avec ISO, CPU, RAM, interface réseau, disque dur. Ce fichier permet aussi de démarrer la machine virtuelle.
+__deployVM.yaml:__ Création de machine virtuelle avec ISO, CPU, RAM, interface réseau, disque dur. Cette tâche permet aussi de démarrer la machine virtuelle.
 
 __new_user.yaml:__ Création de l'utilisateur *itesciadmin* avec un mot de passe haché (SHA 512). L'utilisateur est également ajouter dans des groupes..
 
