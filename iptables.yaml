@@ -1,26 +1,27 @@
 - hosts: all
-  - name: IP tables
-    iptables:
-     chain: INPUT
-     jump: DROP
-     protocol: tcp
-    become: yes
-    tags: iptables
+  tasks:
+   - name: IP tables
+     iptables:
+      chain: INPUT
+      jump: DROP
+      protocol: tcp
+      become: yes
+      tags: iptables
 
-  - name: Allow port 22
-    iptables:
-     chain: INPUT
-     destination_port: 22
-     jump: ACCEPT
-     protocol: tcp
-    become: yes
-    tags: iptables1
+   - name: Allow port 22
+     iptables:
+      chain: INPUT
+      destination_port: 22
+      jump: ACCEPT
+      protocol: tcp
+      become: yes
+      tags: iptables1
 
-  - name: Allow port 8006
-    iptables:
-     chain: INPUT
-     destination_port: 8006
-     jump: ACCEPT
-     protocol: tcp
-    become: yes
-    tags: iptables2 
+   - name: Allow port 8006
+     iptables:
+      chain: INPUT
+      destination_port: 8006
+      jump: ACCEPT
+      protocol: tcp
+      become: yes
+      tags: iptables2 
