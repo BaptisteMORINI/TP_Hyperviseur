@@ -2,7 +2,7 @@
 
 ## Inventory
 
-__hosts.yaml:__ Fichier inventaire de nos hyperviseurs.
+__hosts.yaml:__ Fichier inventaire de nos hyperviseurs proxmox.
 
 ## Ansible-playbooks:
 
