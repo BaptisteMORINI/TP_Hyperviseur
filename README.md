@@ -2,7 +2,7 @@
 
 __hosts.yaml:__ Fichier inventaire de nos hyperviseurs.
 
-# Ansible-playbooks:
+## Ansible-playbooks:
 
 __deployVM.yaml:__ Création de machine virtuelle avec ISO, CPU, RAM, interface réseau, disque dur. Ce fichier permet aussi de démarrer la machine virtuelle.
 
