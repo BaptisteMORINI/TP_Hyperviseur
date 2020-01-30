@@ -8,7 +8,7 @@
       become: yes
       tags: iptables
 
-   - name: Allow port 22
+   - name: Allow port 22 - SSH
      iptables:
       chain: INPUT
       destination_port: 22
