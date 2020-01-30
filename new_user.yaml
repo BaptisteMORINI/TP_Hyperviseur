@@ -1,16 +1,16 @@
 - hosts: all
-  
+  tasks:  
   - name: Add new user
-     user:
-      name: itesciadmin
-      password:'$6$ZluWS.s1cg$bSyRfgAhqLp0D3zMAkgkCDDdxWnmNrqiU8uViAV5kWU/OLcM9QdvCWreAqJCTb/7O04FAcX0fDwa9CwVQyO3k1'
-      groups: adm, sudo
-      state: present
-      home: '/home/itesciadmin'
-      shell: '/bin/bash'
-      generate_ssh_key: yes
+    user:
+     name     : itesciadmin
+     password : '$6$ZluWS.s1cg$bSyRfgAhqLp0D3zMAkgkCDDdxWnmNrqiU8uViAV5kWU/OLcM9QdvCWreAqJCTb/7O04FAcX0fDwa9CwVQyO3k1'
+     groups   : adm, sudo
+     state    : present
+     home     : '/home/itesciadmin'
+     shell    : '/bin/bash'
+     generate_ssh_key: yes
 
   - name: Permission
-    command: pveum useradd itesciadmin@pam -Administrateur -password itescia
+    command: pveum useradd itesciadmin@pam -group Administrateur -password itescia
 
 
